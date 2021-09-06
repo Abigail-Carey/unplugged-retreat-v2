@@ -221,10 +221,12 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+
 }
 
 header nav ul li {
   font-size: 1.125em;
+  margin: 0 30px;
 }
 
 .content-wrapper {
