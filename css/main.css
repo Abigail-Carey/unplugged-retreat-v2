@@ -114,6 +114,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 1.875em;
+  margin: 0;
 }
 
 h3,
@@ -767,12 +768,17 @@ DESKTOP STYLES
 ========================================================================== */
 
 @media only screen and (min-width: 1200px) {
+
+header {
+  padding: 10px 0;
+}
+
 .content-wrapper {
   max-width: 960px;
 }
 
-header {
-  padding: 15px 0;
+header nav {
+  width: 24%;
 }
 
 h2 {
@@ -792,7 +798,11 @@ p {
 /* Hero Area */
 .hero-area h1 {
   font-size: 3.75em;
-  width: 60%;
+  width: 80%;
+}
+
+.hero-area {
+  min-height: 600px;
 }
 /* Aside */
 aside .content-wrapper {
@@ -810,6 +820,7 @@ aside .content-wrapper .form {
 /* Features */
 .features h2 {
   width: 90%;
+  margin: 0 0 20px 0;
 }
 
 .features article {
@@ -823,6 +834,13 @@ aside .content-wrapper .form {
 
 footer h4 {
   font-size: 1.875em;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 /* ==========================================================================
@@ -840,6 +858,7 @@ About Page
 
 .map figure {
   padding-bottom: 37.5%;
+}
 
 .contact-content h4 {
   font-size: 1.875em;
